@@ -24,18 +24,15 @@ a {
 }
 
 .container {
-    width: 85%;
+    width: 83%;
     margin: 0 auto;
     max-width: 1200px;
-    /* eliminare */
-    background-color: lightblue;
 }
 
 header {
     height: 72px;
     line-height: 72px;
     /* eliminare */
-    background-color: green;
     width: 100%;
 }
 
@@ -43,14 +40,30 @@ header {
     float: left
 }
 
+.login {
+    float: right;
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -70%);
+}
+
 li {
     display: inline-block;
     padding: 5px;
 }
 
-li a {
+header a {
     color: white;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bolder;
 }
 
@@ -62,8 +75,56 @@ form {
     display: inline-block;
 }
 
-.banner {
-    height: 430px;
+.login a {
+    color: #7f9ab7;
+}
+
+input {
+    color: white;
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+.loggati {
+    padding: 9px 23px;
+    background-color: #0c3259;
+    border: 1px solid #517ea7;
+    border-radius: 10%;
+    margin: 0 8px 0 12px;
+}
+
+.piano {
+    background-color: #7eb802;
+    border-width: 0;
+    border-radius: 8%;
+}
+
+.uno {
+    padding: 9px;
+}
+
+.bannerone {
+    width: 60%;
+    height: 420px;
+    position: relative;
+}
+
+.sottobanner {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.sottobanner h1 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 300;;
+}
+
+.due {
+    padding: 15px 20px;
+    font-size: 13px;
 }
 
 /* SECONDO BLOCCO */
