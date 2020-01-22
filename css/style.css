@@ -175,9 +175,39 @@ input {
 .carta {
     width: 33.3333%;
     float: left;
-    /* eliminare */
-    background-color: yellow;
-    height: 500px;
-    border: 1px solid black;
+    text-align: center;
+}
 
+.immagine {
+    margin: 15px auto 55px auto;
+    height: 180px;
+}
+
+.prima img{
+    width: 135.19px;
+}
+
+
+.seconda img{
+    width: 205.47px;
+}
+
+.terza img {
+    width: 151.91px;
+}
+
+.testo h2 {
+    padding-bottom: 15px;
+    font-size: 24px;
+    color: #90aa3c;
+}
+
+.testo p {
+    padding: 15px 20px 70px 20px;
+    color: #9c9fa4;
+}
+
+hr {
+    width: 32px;
+    margin: 0 auto;
 }
