@@ -134,9 +134,33 @@ input {
 }
 
 .bloccogrigio {
-    background-color: grey;
     height: 150px;
+    position: relative;
 }
+
+.bloccogrigio .scritte {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bloccogrigio h3 {
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-family: verdana;
+    color: #3b435a;
+}
+
+.bloccogrigio h5 {
+    font-weight: lighter;
+    font-size: 17px;
+    color: #9c9fa4;
+}
+
 
 /* TERZO BLOCCO */
 
