@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* PRIMO BLOCCO */
+.container-fullwidth{
+    background-color: #0c3259;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: lightblue;
+}
+
+header {
+    height: 72px;
+}
+
+.banner {
+    height: 430px;
+}
+
+/* SECONDO BLOCCO */
+
+.grigio {
+    background-color: #f9f9f9;
+}
+
+/* TERZO BLOCCO */
+
+.bianco {
+    background-color: white;
+}
