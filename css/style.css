@@ -16,14 +16,17 @@
 }
 
 .container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     max-width: 1200px;
+    /* eliminare */
     background-color: lightblue;
 }
 
 header {
     height: 72px;
+    /* eliminare */
+    background-color: yellow;
 }
 
 .banner {
@@ -36,8 +39,27 @@ header {
     background-color: #f9f9f9;
 }
 
+.bloccogrigio {
+    background-color: grey;
+    height: 150px;
+}
+
 /* TERZO BLOCCO */
 
 .bianco {
     background-color: white;
+}
+
+.bloccobianco {
+    width: 100%;
+}
+
+.carta {
+    width: 33.3333%;
+    float: left;
+    /* eliminare */
+    background-color: yellow;
+    height: 500px;
+    border: 1px solid black;
+
 }
