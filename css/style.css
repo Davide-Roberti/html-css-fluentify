@@ -10,6 +10,14 @@
     clear: both;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* PRIMO BLOCCO */
 .container-fullwidth{
     background-color: #0c3259;
@@ -25,8 +33,33 @@
 
 header {
     height: 72px;
+    line-height: 72px;
     /* eliminare */
-    background-color: yellow;
+    background-color: green;
+    width: 100%;
+}
+
+.logo, .menu, .login {
+    float: left
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+}
+
+li a {
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+li a:hover {
+    color: orange;
+}
+
+form {
+    display: inline-block;
 }
 
 .banner {
